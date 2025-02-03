@@ -11,4 +11,5 @@
   - `static/js` ------ 前后端交互
   - `static/js/index.html` ------ 布局文件
 - `.env` ------ 存放 DeepSeek 的 API Key
+- 
 **2.3更新：连续3天DeepSeek由于受到恶意攻击，API无法使用，所以使用GPT 3.5 API暂时代替**
