@@ -1,4 +1,4 @@
-# DeepSeek API简单实践
+# 基于DeepSeek的全栈实践
 **此项目是Ai网站对接DeepSeek大模型**
 ## 第一次完整的做全栈，对过程进行简单记录。
 
