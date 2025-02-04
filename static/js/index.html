@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全栈实践</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- 左侧：聊天记录 -->
+        <div class="chat-left">
+            <h1>ChatEasy</h1>
+            <!-- 加载指示器 -->
+            <div class="loading-indircator">正在加载...</div>
+             <!-- 输入区域 -->
+            <div class="input-area">
+                <div class="input-with-icon">
+                    <textarea id="massage" row="4" placeholder="请输入您的问题"></textarea>
+                    <button class="send-icon"></button>
+                </div>
+            </div>
+        </div>
+        <!-- 回到顶部 -->
+        <button id="back-to-top" class="back-to-top"></button>
+    </div>
+    <!-- 右侧：对话历史和设置 -->
+    <div class="chat-right">
+        <div class="top-nav">
+            <button class="button secondary">新对话</button>
+            <button class="button secondary">保存对话</button>
+        </div>
+        <div class="input-group">
+            <label for="temperature">创意度(0-1.5):</label>
+            <input type="number" id="temperature" placeholder="请输入创意度值" step="0.1" min="0" max="1.5">
+            <div class="input-group">
+                <label for="model">模式</label>
+                <select id="model">
+                    <option value="deepseek-chat">对话模式</option>
+                    <option value="deepseek-chat">编码模式</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+    <script></script>
+</body>
+</html>
